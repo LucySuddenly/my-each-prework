@@ -1,5 +1,5 @@
 def my_each(array)
-  counter = array.length 
+  counter = 0 
   while counter > 0 
     yield(array[counter])
     counter -= 1
